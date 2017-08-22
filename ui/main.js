@@ -7,7 +7,7 @@ element.innerHTML = 'New value';
 
 // move the Image]
 
-var img = getElementById('chaitu');
+var img = document.getElementById('chaitu');
 img.onclick = function (){
     
     img.style.marginLeft = '100px';
