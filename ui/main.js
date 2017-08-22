@@ -10,7 +10,7 @@ element.innerHTML = 'New value';
 var img = document.getElementById('chaitu');
 marginLeft = 0;
 function moveRight() {
-    marginLeft = marginleft + 10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft+ "px";
     
 } 
