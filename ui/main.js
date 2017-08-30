@@ -11,6 +11,7 @@ button.onclick = function(){
    
    request.onreadystatechange = function(){
      if (request.readyState === XMLHttpRequest.Done) {
+         // take same action
          if (request.status === 200){
              var counter = request.responseText;
              var span= document.getElementById('count');
@@ -19,6 +20,6 @@ button.onclick = function(){
      } 
    };
    //make request
-   request.open ('GET', "http://chchaitanya94.imad.hasura-app.io/counter", true);
+   request.open ('GET', 'http://chchaitanya94.imad.hasura-app.io/counter', true);
    request.send('null');
 };
