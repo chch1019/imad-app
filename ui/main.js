@@ -21,5 +21,5 @@ button.onclick = function(){
    };
    //make request
    request.open ('GET', 'http://chchaitanya94.imad.hasura-app.io/counter', true);
-   request.send('null');
+   request.send(null);
 };
