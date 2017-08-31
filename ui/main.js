@@ -33,10 +33,11 @@ submit.onclick = function(){
     // compute the list of names and render it as a list
     var names = ['name1', 'name2', 'name3', 'name4'];
     var list = '';
-    for (var i=0; i<number.length; i++);
+    for (var i=0; i<number.length; i++){
     list += '<li>'+ name[i] +'</li>';
     //
-}
+    }
+
 var ul = document.getElementById('namelist');
 ul.innerHTML = list;
-
+};
